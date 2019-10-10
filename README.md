@@ -59,7 +59,7 @@ Folder `Analysis`contains scripts to implement the analysis and obtain results c
 ### Analysis
 
 1. `01_prep_spcdat.R` Prepare spectral datasets for subquent analysis: (1) spectral index datasets, (2) spectral datasets for calibration and validation of (S)PLS-DA models. 
-2. `02_pls_classification.R` Fit (S)PLS-DA models, extract variable importance, assess "internal", "general" and "dynamic" model performance. 
+2. `02_pls_class.R` Fit (S)PLS-DA models, extract variable importance, assess "internal", "general" and "dynamic" model performance. 
 3. `03_extract_dynpars.R` Fit Gompertz model (optionally different models) and linear interpolation to spectral indices, extract model and dynamics parameters. 
 4. `04_subset_selection.R` Select subsets of sensitive and insensitive spectral indices.
 5. `05_generate_preds.R` Extract spectral-temporal features. 
